@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F2F2;
+    width: 100%;
+    height: 100vh;
+}
+
+.card {
+    background: #FFFFFF;
+    height: 697px;
+    width: 450px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1 {
+    font-family: 'Red Hat Display';
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 37px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 42px;
+    color: #1F2E55;
+}
+
+p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 22px;
+    color: #717FA6;
+}
+
+.payment {
+    background: #F7F9FF;
+    border-radius: 11px;
+    height: 98px;
+    width: 354px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.payment-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-span1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 5px;
+    color: #1F2E55;
+}
+
+.payment-span2 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717FA6;
+}
+
+.payment-3 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    margin-left: 100px;
+    color: #382AE1;
+}
+
+.icon-music {
+    margin: 20px;
+}
+
+.text-cont {
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    height: 50px;
+    width: 354px;
+    margin: auto;
+    margin-top: 27px
+}
+
+.text-cont-p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 354px;
+    height: 50px;
+    color: #FFFFFF;
+}
+
+.last-text {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #717FA6;
+    height: 20px;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 35px;
+    width: 96px;
+}
